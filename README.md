@@ -19,7 +19,7 @@
 6. [Perhatian] Untuk mengecek fungsi sorting terdapat pada console log
 
 ## Limitasi
-Input pengguna di asumsikan selalu bertipe angka
+Input pengguna di asumsikan selalu bertipe integer atau float
 
 ## --Documentasi React js--
 ## Available Scripts
