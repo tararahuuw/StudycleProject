@@ -1,7 +1,27 @@
-# Getting Started with Create React App
+# Project Studycle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Program menggunakan bahasa javascript yang langsung diimplementasikan ke dalam suatu website dengan bantuan framework React js
 
+## Documentasi dan Penjelasan Program
+1. Program utama terdapat pada folder src/component/FormCalc.js
+2. Terdapat fungsi bubbleSort yang digunakan untuk mensorting array
+3. Terdapat fungsi mediaArr yang digunaka untuk mendapatkan median dari suatu array
+4. Terdapat fungsi mean yang digunaka untuk mendapatkan average dari suatu array
+5. Terdapat fungsi perkalian yang digunaka untuk mendapatkan multiply self dari suatu array
+6. Terdapat fungsi display untuk menampilkan hasil perhitungan
+
+## Cara Penggunaan
+1. Install node modules dengan menggunakan npm install atau yarn install
+2. Jalankan pada terminal dengan command npm run atau yarn run
+3. Buka http://localhost:3000
+4. Masukkan angka
+5. Click button calculate
+6. [Perhatian] Untuk mengecek fungsi sorting terdapat pada console log
+
+## Limitasi
+Nothing
+
+## --Documentasi React js--
 ## Available Scripts
 
 In the project directory, you can run:
