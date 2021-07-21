@@ -16,15 +16,16 @@ const FormCalc = () => {
     }
 
     // Method for parsing text to integer
-    function ChangeFormToInt(num) {
-        return parseInt(num);
+    function ChangeFormToFloat(num) {
+        return parseFloat(num);
     }
 
     // Method for cleaning data form from comma and spacing
     function CleanDataForm(text) {
         let spliting = text.replace(/\s/g, '');
         let spliting2 = spliting.split(",");
-        let spliting3 = spliting2.map(ChangeFormToInt)
+        let spliting3 = spliting2.map(ChangeFormToFloat)
+        console.log(spliting3)
         return spliting3
     }
 
@@ -80,7 +81,7 @@ const FormCalc = () => {
         for(var i = 0; i < arr.length; i++) {
             sum = sum * arr[i]
         }
-        return sum
+        return sum.toFixed(2)
     }
 
     // Method for displaying result of Array
