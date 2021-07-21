@@ -19,7 +19,7 @@
 6. [Perhatian] Untuk mengecek fungsi sorting terdapat pada console log
 
 ## Limitasi
-Nothing
+Input pengguna di asumsikan selalu bertipe angka
 
 ## --Documentasi React js--
 ## Available Scripts
